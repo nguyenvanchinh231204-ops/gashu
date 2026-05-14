@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio phong cách Son Goku - Siêu Cấp Lập Trình Viên.">
+    <title>Super Portfolio | Nguyễn Văn CHÍNH</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="bg-blobs">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+    </div>
+
+    <div class="container">
+        <!-- Hero Section -->
+        <header class="glass-card hero fade-up" style="animation-delay: 0.2s;">
+            <div class="profile-img-container">
+                <img src="avatar.png" alt="Son Goku Avatar" class="profile-img">
+            </div>
+            <h1>NGUYỄN VĂN CHÍNH</h1>
+            <p class="tagline">Super Saiyan Developer</p>
+            <p class="bio">
+                "Tôi là một lập trình viên đến từ Trái Đất để học hỏi và vượt qua mọi giới hạn!"
+                Với tinh thần của một chiến binh, tôi không ngừng nâng cấp kỹ năng (Power Up)
+                để chinh phục những thử thách công nghệ khó khăn nhất.
+            </p>
+            <div class="socials">
+                <a href="#" class="social-btn">Chiến Đội Facebook</a>
+                <a href="#" class="social-btn">Kho Code GitHub</a>
+                <a href="mailto:contact@example.com" class="social-btn">Gửi Thư Kính</a>
+            </div>
+        </header>
+
+        <!-- Power Stats Section -->
+        <section class="glass-card fade-up" style="animation-delay: 0.4s;">
+            <h2 class="section-title">Cấp Độ Sức Mạnh</h2>
+            <div class="skills-grid">
+                <div class="skill-tag">Kamehameha JS</div>
+                <div class="skill-tag">Final Flash React</div>
+                <div class="skill-tag">Ki-Blast CSS</div>
+                <div class="skill-tag">Dịch Chuyển Tức Thời Node</div>
+                <div class="skill-tag">Bản Năng Vô Cực Design</div>
+                <div class="skill-tag">Tập Luyện 100G</div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer
+            style="text-align: center; color: var(--text-dim); font-size: 0.9rem; margin-top: 50px; padding-bottom: 20px;">
+            <p>&copy; 2026 Designed with 🔥 by Antigravity (Goku Edition)</p>
+        </footer>
+    </div>
+
+    <script>
+        document.querySelectorAll('.fade-up').forEach((el, i) => {
+            el.style.animationDelay = `${(i + 1) * 0.2}s`;
+        });
+    </script>
+</body>
+
+</html>
